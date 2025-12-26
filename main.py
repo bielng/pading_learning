@@ -1,4 +1,4 @@
-Class Microwave:
+class Microwave:
     ...
 
 
