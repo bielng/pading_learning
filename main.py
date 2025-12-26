@@ -1,8 +1,9 @@
 class Microwave:
-    def __init__(self) -> None:
-        pass
+    def __init__(self, brand: str, power_rating: str) -> None:
+        self.brand = brand
+        self.power_rating = power_rating
     ...
 
 
-smeg: Microwave = Microwave()
+smeg: Microwave = Microwave(brand="Smeg", power_rating="B")
 print(smeg)
