@@ -27,6 +27,8 @@ class Microwave:
 
 
 smeg: Microwave = Microwave(brand="Smeg", power_rating="B")
+smeg.turn_on()
+smeg.turn_on()
 # print(smeg)
 # print(smeg.brand)
 # print(smeg.power_rating)
