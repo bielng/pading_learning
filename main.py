@@ -18,6 +18,11 @@ class Microwave:
             print(f'Microwave ({self.brand}) is already turned off. ')  
 
     def run(self, seconds: int) -> None:
+        if self.turned_on:
+            print(f'Running ({self.brand}) for {seconds} seconds')
+        
+        else:
+            print(f'A mystical force whispers: "Turn on your microwave first...."')
         
 
 
