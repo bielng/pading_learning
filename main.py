@@ -12,10 +12,10 @@ class Microwave:
             print(f'Microwave ({self.brand}) is now turned on. ')
     def turn_off(self) -> None:
         if self.turned_on:
-            print(f'Microwave ({self.brand}) is already turned on. ')
+            self.turned_on = False
+            print(f'Microwave ({self.brand}) is now turned off. ')
         else:
-            self.turned_on = True
-            print(f'Microwave ({self.brand}) is now turned on. ')
+            print(f'Microwave ({self.brand}) is already turned off. ')  
 
     
 
