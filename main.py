@@ -27,7 +27,7 @@ class Microwave:
         
 
 
-smeg: Microwave = Microwave(brand="Smeg", power_rating="B")
+smeg: Microwave = Microwave(brand="Smeg", power_rating="B", origin="South Sudan")
 smeg.turn_on()
 # smeg.turn_on()
 smeg.run(30)
@@ -39,7 +39,7 @@ smeg.run(50)
 # print(smeg.power_rating)
 
 
-bosch: Microwave = Microwave(brand="Bosch", power_rating="A")
+bosch: Microwave = Microwave(brand="Bosch", power_rating="A", origin="Mexico")
 bosch.turn_on()
 # bosch.turn_on()
 bosch.run(50)
@@ -47,7 +47,7 @@ bosch.turn_off()
 bosch.run(100)
 
 
-pading: Microwave = Microwave(brand="Pading", power_rating="A")
+pading: Microwave = Microwave(brand="Pading", power_rating="A", origin="Kenya")
 pading.turn_on()
 # pading.turn_on()
 pading.run(37)
